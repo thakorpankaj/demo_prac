@@ -12,7 +12,7 @@ app.use(cors());
 app.use(express.json());
 
 // MongoDB Connection
-mongoose.connect("mongodb://127.0.0.1:27017/mern_demo")
+mongoose.connect("mongodb://3.110.202.206:27017/mern_demo")
 .then(() => console.log("MongoDB Connected"))
 .catch(err => console.log(err));
 
